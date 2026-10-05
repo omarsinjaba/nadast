@@ -78,6 +78,8 @@ h1 span { color: var(--accent); }
   -webkit-appearance: none;
 }
 .search input::placeholder { color: var(--muted); }
+.search input::-webkit-search-cancel-button,
+.search input::-webkit-search-decoration { -webkit-appearance: none; appearance: none; display: none; }
 .search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .clear {
   position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
